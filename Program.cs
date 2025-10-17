@@ -19,7 +19,7 @@ using System.Text;
 
 
 var serverUrl = "http://localhost:12345";
-const string appName = "app-test";
+const string appName = "sample-vertrau";
 const string otlpExporterUri = "http://localhost:4317";
 
 using var bootstrapLoggerFactory = LoggerFactory.Create(builder =>
