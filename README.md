@@ -38,7 +38,7 @@ Na Vertrau, todas as aplicações de produção precisam expor dados de observab
 ## Como executar localmente
 
 1. **Pré-requisitos**
-   * .NET 8 SDK instalado.
+   * .NET 9 SDK instalado.
    * Um coletor OpenTelemetry ou outro backend OTLP escutando em `http://localhost:4317` (opcional, mas necessário para visualizar traces fora do console).
    * Para métricas, recomenda-se executar um servidor Prometheus apontando para `http://localhost:12345/metrics`.
 
