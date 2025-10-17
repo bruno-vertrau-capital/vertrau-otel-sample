@@ -63,11 +63,3 @@ appsettings.json  // Configuração adicional padrão do ASP.NET Core
 ```
 
 Ao replicar esta estrutura em outros projetos, basta ajustar os identificadores do serviço (nome, versão, endpoint OTLP) e incluir instrumentações adicionais relevantes ao seu contexto. O restante da configuração já segue o padrão validado pela Vertrau.
-
-## Próximos passos sugeridos
-
-* Integrar com o coletor padrão da Vertrau (Helm chart ou docker-compose interno).  
-* Publicar dashboards de exemplo no Grafana para facilitar onboarding.  
-* Adicionar exemplos de instrumentação manual (`ActivitySource`) quando houver regras de negócio críticas.
-
-Esperamos que este exemplo sirva como um guia claro para equipes que precisam conectar suas aplicações Vertrau ao OpenTelemetry com segurança e consistência.
